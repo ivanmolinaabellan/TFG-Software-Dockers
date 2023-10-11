@@ -1,8 +1,74 @@
 version: '3'
 services:
-  server_:
-    image: ubuntu:22.04
+  
+
+  #FLUENTD RECOLECCION LOGS
+  fluentd:
+    build: 
+      context: ./fluentd
+      dockerfile: Dockerfile_fluentd
+    privileged: true
+    #the container as first instruction executes the entrypoint (since the image doesn't support bash it's used sh)
+    entrypoint: sh -c "/ep_fluentd.sh"
+    #shared-volumes between fluentd and the host
+    volumes:
+      - ./fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf 
+      - ./fluentd/shared-volume:/shared-volume
+      - ./fluentd/output:/fluentd/output/
+    #hostPort:containerPort
+    #indicates a connection between these 2 ports
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+      - "5140/tcp"
+    command: 
+      - "/bin/sleep"
+      - "infinity"
+    networks:
+      defaultfluentd:
+        ipv4_address: 10.100.10.2
+
+
+  router1:
+    hostname: router1
+    build: 
+      context: ./router
+      dockerfile: Dockerfile_router
+    #the container as first instruction executes the entrypoint
+    entrypoint: entrypoints/ep_routerA.sh
+    #set the network and system priviledges high to make it possible to add static route and set the flag for forwarding to 1. Done for all the containers in this primal phase.
+    cap_add:
+      - NET_ADMIN
+    privileged: true
+    #shared-volumes between fluentd and the host
+    volumes:
+      - ./fluentd/shared-volume:/shared-volume
+    #Started after fluentd (that should collect all the logs)
+    depends_on:
+      - fluentd
+    #links establishes a link to the fluentd service enabling communication with that container
+    links:
+      - fluentd
+    #set as logging driver fluentd (to check if it's actually needed)
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: 10.100.10.2:24224
+        tag: router1
+        #makes the execution non-blocking
+        fluentd-async: 'true'
     #put the container in a loop in order to access it with bash
+    command: 
+      - "/bin/sleep"
+      - "infinity"
+    networks:
+      servernet:
+        ipv4_address: 10.100.0.1 ##error debe ser que esta reservada por puerta de enlace usar la .2
+
+
+  #SERVIDOR
+  server:
+    image: ubuntu:22.04
     command:
       #- "ip route add 172.16.1.0/24 via 172.16.0.2" 
       - "/bin/sleep"
@@ -13,8 +79,61 @@ services:
     networks:
       servernet:
         ipv4_address: 10.100.0.2
-  
-  
+
+  #ALUMNOS
+  client1:
+    build: 
+      context: ./client
+      dockerfile: Dockerfile_client
+    #privedges for network needed to add a new ip route
+    cap_add:
+      - NET_ADMIN
+    command: 
+      - "/bin/sleep"
+      - "infinity"  
+    networks:
+      clientnet1:
+        ipv4_address: 10.0.1.2
+  client2:
+    build: 
+      context: ./client
+      dockerfile: Dockerfile_client
+    #privedges for network needed to add a new ip route
+    cap_add:
+      - NET_ADMIN
+    command: 
+      - "/bin/sleep"
+      - "infinity"  
+    networks:
+      clientnet2:
+        ipv4_address: 10.0.2.2  
+  client3:
+    build: 
+      context: ./client
+      dockerfile: Dockerfile_client
+    #privedges for network needed to add a new ip route
+    cap_add:
+      - NET_ADMIN
+    command: 
+      - "/bin/sleep"
+      - "infinity"  
+    networks:
+      clientnet3:
+        ipv4_address: 10.0.3.2
+  client4:
+    build: 
+      context: ./client
+      dockerfile: Dockerfile_client
+    #privedges for network needed to add a new ip route
+    cap_add:
+      - NET_ADMIN
+    command: 
+      - "/bin/sleep"
+      - "infinity"  
+    networks:
+      clientnet4:
+        ipv4_address: 10.0.4.2
+
 
 networks:
   clientnet1:
@@ -62,4 +181,9 @@ networks:
     ipam:
       config:
         - subnet: 10.100.0.0/24
+  defaultfluentd:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.100.10.0/24
   
