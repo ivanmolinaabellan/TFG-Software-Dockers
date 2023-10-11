@@ -1,0 +1,65 @@
+version: '3'
+services:
+  server_:
+    image: ubuntu:22.04
+    #put the container in a loop in order to access it with bash
+    command:
+      #- "ip route add 172.16.1.0/24 via 172.16.0.2" 
+      - "/bin/sleep"
+      - "infinity"
+    cap_add:
+      - NET_ADMIN
+    #privileged: true
+    networks:
+      servernet:
+        ipv4_address: 10.100.0.2
+  
+  
+
+networks:
+  clientnet1:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.1.0/24
+  clientnet2:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.2.0/24
+  clientnet3:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.3.0/24
+  clientnet4:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.4.0/24
+  internalnetRouterRB-RA:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.1.0.0/30
+  internalnetRouterRB-RC:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.2.0.0/30
+  internalnetRouterRB-RD:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.3.0.0/30
+  teacher-RA:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.200.0.0/30
+  servernet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.100.0.0/24
+  
