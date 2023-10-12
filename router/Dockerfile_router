@@ -22,9 +22,10 @@ RUN echo 'destination fluentdContainer { tcp("10.100.10.2" port(5140)); };\n' >>
 #add the entryscripts to the common image of the router
 COPY entrypoints/ep_routerA.sh entrypoints/ep_routerA.sh
 COPY entrypoints/ep_routerB.sh entrypoints/ep_routerB.sh
-
+COPY entrypoints/ep_routerC.sh entrypoints/ep_routerC.sh
+COPY entrypoints/ep_routerD.sh entrypoints/ep_routerD.sh
 #make the scripts executable 
-RUN chmod +x /entrypoints/ep_routerA.sh /entrypoints/ep_routerB.sh
+RUN chmod +x /entrypoints/ep_routerA.sh /entrypoints/ep_routerB.sh /entrypoints/ep_routerC.sh /entrypoints/ep_routerD.sh
 
 
 CMD ["/bin/bash"]

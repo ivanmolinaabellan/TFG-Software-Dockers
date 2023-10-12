@@ -5,11 +5,11 @@ service frr start
 
 vtysh << EOF
 conf t
-log file /shared-volume/frr/frr1.log
+log file /shared-volume/frr/frr4.log
 router ospf
-network 10.100.0.0/24 area 0
-network 10.200.0.0/30 area 0
-network 10.1.0.0/30 area 0
+network 10.3.0.0/29 area 0
+network 10.0.3.0/24 area 0
+network 10.0.4.0/24 area 0
 network 10.100.10.0/24 area 0
 end
 EOF
