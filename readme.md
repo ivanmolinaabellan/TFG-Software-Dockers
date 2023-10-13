@@ -1,8 +1,3 @@
-#PRUEBAS routing para conectar cliente1 y cliente2 mediante routing por el routerC
-
-Cliente1:
-ip route add 10.0.2.0/24 via 10.0.1.2
-Cliente2:
-ip route add 10.0.1.0/24 via 10.0.2.2
-
-#mirar rutas de default
+13/10/2023
+rutas dinamicas gracias a opsf en todos los routers y configuradas las rutas estaticas del gateway de cada host.
+Ya existe conectividad entre todos los hosts

@@ -130,7 +130,7 @@ services:
       internalnetRouterRB-RC:
         ipv4_address: 10.2.0.3
       clientnet1:
-        ipv4_address: a
+        ipv4_address: 10.0.1.2
       clientnet2:
         ipv4_address: 10.0.2.2
 
@@ -176,11 +176,13 @@ services:
 
   #SERVIDOR
   server:
-    image: ubuntu:22.04
+    build: 
+      context: ./host
+      dockerfile: Dockerfile_host
     command:
-      #- "ip route add 172.16.1.0/24 via 172.16.0.2" 
-      - "/bin/sleep"
-      - "infinity"
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.100.0.1 dev eth0 && ip route add default via 10.100.0.2 dev eth0 && /bin/sleep infinity"  
     cap_add:
       - NET_ADMIN
     #privileged: true
@@ -191,56 +193,76 @@ services:
   #ALUMNOS
   client1:
     build: 
-      context: ./client
-      dockerfile: Dockerfile_client
+      context: ./host
+      dockerfile: Dockerfile_host
     #privedges for network needed to add a new ip route
     cap_add:
       - NET_ADMIN
-    command: 
-      - "/bin/sleep"
-      - "infinity"  
+    command:
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.0.1.1 dev eth0 && ip route add default via 10.0.1.2 && /bin/sleep infinity"  
     networks:
       clientnet1:
         ipv4_address: 10.0.1.3
   client2:
     build: 
-      context: ./client
-      dockerfile: Dockerfile_client
+      context: ./host
+      dockerfile: Dockerfile_host
     #privedges for network needed to add a new ip route
     cap_add:
       - NET_ADMIN
-    command: 
-      - "/bin/sleep"
-      - "infinity"  
+    command:
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.0.2.1 dev eth0 && ip route add default via 10.0.2.2 && /bin/sleep infinity" 
     networks:
       clientnet2:
         ipv4_address: 10.0.2.3
   client3:
     build: 
-      context: ./client
-      dockerfile: Dockerfile_client
+      context: ./host
+      dockerfile: Dockerfile_host
     #privedges for network needed to add a new ip route
     cap_add:
       - NET_ADMIN
     command: 
-      - "/bin/sleep"
-      - "infinity"  
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.0.3.1 dev eth0 && ip route add default via 10.0.3.2 && /bin/sleep infinity" 
     networks:
       clientnet3:
         ipv4_address: 10.0.3.3
   client4:
     build: 
-      context: ./client
-      dockerfile: Dockerfile_client
+      context: ./host
+      dockerfile: Dockerfile_host
     #privedges for network needed to add a new ip route
     cap_add:
       - NET_ADMIN
     command: 
-      - "/bin/sleep"
-      - "infinity"  
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.0.4.1 dev eth0 && ip route add default via 10.0.4.2 && /bin/sleep infinity" 
     networks:
       clientnet4:
         ipv4_address: 10.0.4.3
+
+
+#PROFESOR
+  teacher:
+    build: 
+      context: ./host
+      dockerfile: Dockerfile_host
+    cap_add:
+      - NET_ADMIN
+    command:
+      - "/bin/sh"
+      - "-c"
+      - "ip route del default via 10.200.0.1 dev eth0 && ip route add default via 10.200.0.2 dev eth0 && /bin/sleep infinity"  
+    networks:
+      teacher-RA:
+        ipv4_address: 10.200.0.3
 
 
 networks:
