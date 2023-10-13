@@ -29,6 +29,7 @@ services:
         ipv4_address: 10.100.10.2
 
 
+#ROUTERS
   routera:
     hostname: routerA
     build: 
@@ -122,24 +123,6 @@ services:
     cap_add:
       - NET_ADMIN
     privileged: true
-    #shared-volumes between fluentd and the host
-    volumes:
-      - ./fluentd/shared-volume:/shared-volume
-    #Started after fluentd (that should collect all the logs)
-    depends_on:
-      - fluentd
-    #links establishes a link to the fluentd service enabling communication with that container
-    links:
-      - fluentd
-    #set as logging driver fluentd (to check if it's actually needed)
-    logging:
-      driver: "fluentd"
-      options:
-        fluentd-address: 10.100.10.2:24224
-        tag: routera
-        #makes the execution non-blocking
-        fluentd-async: 'true'
-    #put the container in a loop in order to access it with bash
     command: 
       - "/bin/sleep"
       - "infinity"
@@ -147,7 +130,7 @@ services:
       internalnetRouterRB-RC:
         ipv4_address: 10.2.0.3
       clientnet1:
-        ipv4_address: 10.0.1.2
+        ipv4_address: a
       clientnet2:
         ipv4_address: 10.0.2.2
 

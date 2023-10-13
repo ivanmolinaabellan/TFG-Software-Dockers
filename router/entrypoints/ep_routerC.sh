@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#ROUTERC
 # Start syslog-ng and FRR
 service syslog-ng start
 service frr start
