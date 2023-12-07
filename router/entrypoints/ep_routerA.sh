@@ -15,4 +15,8 @@ network 10.100.10.0/24 area 0
 end
 EOF
 
+
+tshark -i any > /shared-volume/"$(hostname)"Log.txt &
+
+# Keep the container running
 /bin/sleep infinity

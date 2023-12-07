@@ -1,34 +1,5 @@
 version: '3'
 services:
-  
-
-  #FLUENTD RECOLECCION LOGS
-  fluentd:
-    build: 
-      context: ./fluentd
-      dockerfile: Dockerfile_fluentd
-    privileged: true
-    #the container as first instruction executes the entrypoint (since the image doesn't support bash it's used sh)
-    entrypoint: sh -c "/ep_fluentd.sh"
-    #shared-volumes between fluentd and the host
-    volumes:
-      - ./fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf 
-      - ./fluentd/shared-volume:/shared-volume
-      - ./fluentd/output:/fluentd/output/
-    #hostPort:containerPort
-    #indicates a connection between these 2 ports
-    ports:
-      - "24224:24224"
-      - "24224:24224/udp"
-      - "5140/tcp"
-    command: 
-      - "/bin/sleep"
-      - "infinity"
-    networks:
-      defaultfluentd:
-        ipv4_address: 10.100.10.2
-
-
 #ROUTERS
   routera:
     hostname: routerA
@@ -43,19 +14,19 @@ services:
     privileged: true
     #shared-volumes between fluentd and the host
     volumes:
-      - ./fluentd/shared-volume:/shared-volume
+      - ./teacher-fluentd/shared-volume/tshark:/shared-volume
     #Started after fluentd (that should collect all the logs)
     depends_on:
-      - fluentd
+      - teacher-fluentd
     #links establishes a link to the fluentd service enabling communication with that container
     links:
-      - fluentd
+      - teacher-fluentd
     #set as logging driver fluentd (to check if it's actually needed)
     logging:
       driver: "fluentd"
       options:
-        fluentd-address: 10.100.10.2:24224
-        tag: routera
+        fluentd-address: 10.200.0.3:24224
+        tag: routerA
         #makes the execution non-blocking
         fluentd-async: 'true'
     #put the container in a loop in order to access it with bash
@@ -64,13 +35,12 @@ services:
       - "infinity"
     networks:
       servernet:
-        ipv4_address: 10.100.0.2 ##error debe ser que esta reservada por puerta de enlace NO usar la .1
+        ipv4_address: 10.100.0.2
       teacher-RA:
         ipv4_address: 10.200.0.2 
       internalnetRouterRB-RA:
         ipv4_address: 10.1.0.2 
-      defaultfluentd:
-        ipv4_address: 10.100.10.10 
+
 
   routerb:
     hostname: routerB
@@ -85,19 +55,19 @@ services:
     privileged: true
     #shared-volumes between fluentd and the host
     volumes:
-      - ./fluentd/shared-volume:/shared-volume
+      - ./teacher-fluentd/shared-volume/tshark:/shared-volume
     #Started after fluentd (that should collect all the logs)
     depends_on:
-      - fluentd
+      - teacher-fluentd
     #links establishes a link to the fluentd service enabling communication with that container
     links:
-      - fluentd
+      - teacher-fluentd
     #set as logging driver fluentd (to check if it's actually needed)
     logging:
       driver: "fluentd"
       options:
-        fluentd-address: 10.100.10.2:24224
-        tag: routera
+        fluentd-address: 10.200.0.3:24224
+        tag: routerB
         #makes the execution non-blocking
         fluentd-async: 'true'
     #put the container in a loop in order to access it with bash
@@ -106,7 +76,7 @@ services:
       - "infinity"
     networks:
       internalnetRouterRB-RA:
-        ipv4_address: 10.1.0.3 ##error debe ser que esta reservada por puerta de enlace NO usar la .1
+        ipv4_address: 10.1.0.3
       internalnetRouterRB-RC:
         ipv4_address: 10.2.0.2
       internalnetRouterRB-RD:
@@ -123,6 +93,24 @@ services:
     cap_add:
       - NET_ADMIN
     privileged: true
+      #shared-volumes between fluentd and the host
+    volumes:
+      - ./teacher-fluentd/shared-volume/tshark:/shared-volume
+    #Started after fluentd (that should collect all the logs)
+    depends_on:
+      - teacher-fluentd
+    #links establishes a link to the fluentd service enabling communication with that container
+    links:
+      - teacher-fluentd
+    #set as logging driver fluentd (to check if it's actually needed)
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: 10.200.0.3:24224
+        tag: routerC
+        #makes the execution non-blocking
+        fluentd-async: 'true'
+    #put the container in a loop in order to access it with bash
     command: 
       - "/bin/sleep"
       - "infinity"
@@ -147,25 +135,21 @@ services:
     privileged: true
     #shared-volumes between fluentd and the host
     volumes:
-      - ./fluentd/shared-volume:/shared-volume
+      - ./teacher-fluentd/shared-volume/tshark:/shared-volume
     #Started after fluentd (that should collect all the logs)
     depends_on:
-      - fluentd
+      - teacher-fluentd
     #links establishes a link to the fluentd service enabling communication with that container
     links:
-      - fluentd
+      - teacher-fluentd
     #set as logging driver fluentd (to check if it's actually needed)
     logging:
       driver: "fluentd"
       options:
-        fluentd-address: 10.100.10.2:24224
-        tag: routera
+        fluentd-address: 10.200.0.3:24224
+        tag: routerD
         #makes the execution non-blocking
         fluentd-async: 'true'
-    #put the container in a loop in order to access it with bash
-    command: 
-      - "/bin/sleep"
-      - "infinity"
     networks:
       internalnetRouterRB-RD:
         ipv4_address: 10.3.0.3
@@ -179,6 +163,22 @@ services:
     build: 
       context: ./host
       dockerfile: Dockerfile_host
+    volumes:
+      - ./teacher-fluentd/shared-volume:/shared-volume
+    depends_on:
+      - teacher-fluentd
+    #links establishes a link to the fluentd service enabling communication with that container
+    #Started after fluentd (that should collect all the logs)
+    links:
+      - teacher-fluentd
+    #set as logging driver fluentd (to check if it's actually needed)
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: 10.200.0.3:24224
+        tag: servidor
+        #makes the execution non-blocking
+        fluentd-async: 'true'
     command:
       - "/bin/sh"
       - "-c"
@@ -250,12 +250,24 @@ services:
 
 
 #PROFESOR
-  teacher:
+  teacher-fluentd:
     build: 
-      context: ./host
-      dockerfile: Dockerfile_host
-    cap_add:
-      - NET_ADMIN
+      context: ./teacher-fluentd
+      dockerfile: Dockerfile_professor-fluentd
+    privileged: true
+    #the container as first instruction executes the entrypoint (since the image doesn't support bash it's used sh)
+    entrypoint: sh -c "/ep_fluentd.sh"
+    #shared-volumes between fluentd and the host
+    volumes:
+      - ./teacher-fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf 
+      - ./teacher-fluentd/shared-volume:/shared-volume
+      - ./teacher-fluentd/output:/fluentd/output/
+    #hostPort:containerPort
+    #indicates a connection between these 2 ports
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+      - "5140/tcp"
     command:
       - "/bin/sh"
       - "-c"
@@ -265,6 +277,8 @@ services:
         ipv4_address: 10.200.0.3
 
 
+
+#REDES
 networks:
   clientnet1:
     driver: bridge
