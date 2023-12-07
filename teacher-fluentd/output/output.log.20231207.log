@@ -12874,3 +12874,560 @@
 2023-12-07T15:54:40+00:00	routerBlogs	{"message":" 4248 1758.721559100     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
 2023-12-07T15:54:40+00:00	routerBlogs	{"message":" 4249 1758.721565800     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
 2023-12-07T15:54:40+00:00	routerBlogs	{"message":" 4250 1758.725820300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1457 1718.484639000     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1458 1718.484644400     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1459 1718.553556100     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1460 1728.484544300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1461 1728.484565900     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1462 1728.484624400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1463 1728.484631800     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1464 1728.484651900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1465 1728.484657200     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1466 1728.553547600     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1467 1738.484924700     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1468 1738.484947000     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1469 1738.485002900     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1470 1738.485010300     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1471 1738.485029200     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1472 1738.485034500     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1473 1738.553511200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1474 1748.485128500     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1475 1748.485151200     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1476 1748.485209900     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1477 1748.485217300     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1478 1748.485236400     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1479 1748.485242000     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1480 1748.553554400     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1481 1748.553657800     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1482 1748.914666800     10.3.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1483 1748.914686000     10.3.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1484 1754.030557000     10.3.0.3 → 10.200.0.3   TCP 140 36109 → 5140 [PSH, ACK] Seq=5292 Ack=1 Win=64256 Len=72 TSval=543034835 TSecr=1870902224"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1485 1754.030656100   10.200.0.3 → 10.3.0.3     TCP 68 5140 → 36109 [ACK] Seq=1 Ack=5364 Win=64128 Len=0 TSval=1870963234 TSecr=543034835"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1486 1758.480923800     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1487 1758.485156100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1488 1758.485177500     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1489 1758.485233400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1490 1758.485241200     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1491 1758.485260900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1492 1758.485266400     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1493 1758.485277900     10.3.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1494 1758.485282000     10.3.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1495 1758.553718800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1496 1758.553949900     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1497 1758.916655600     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1498 1758.916678500     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1499 1759.040512000 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1500 1759.040767900 02:42:0a:03:00:02 →              ARP 44 Who has 10.3.0.3? Tell 10.3.0.2"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1501 1759.040799800 02:42:0a:03:00:03 →              ARP 44 10.3.0.3 is at 02:42:0a:03:00:03"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1502 1759.040825500 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1503 1759.044938700     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1504 1768.485711800     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1505 1768.485733800     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1506 1768.485792000     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1507 1768.485799800     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1508 1768.485819200     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:54:50+00:00	routerDlogs	{"message":" 1509 1768.485824500     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4251 1758.725925400     10.3.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4252 1758.726022900     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4253 1758.726036600     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4254 1758.726092900     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4255 1758.726102000     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4256 1758.794154200     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4257 1758.794179700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4258 1758.794264900     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4259 1758.794278000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4260 1758.794346100     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4261 1758.794359700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4262 1758.794458300     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4263 1758.794472100     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4264 1758.794524000     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4265 1758.794534300     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4266 1758.794585000     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4267 1758.794592200     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4268 1758.815046200     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4269 1759.157320800     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4270 1759.182604100     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4271 1759.280892100 02:42:0a:02:00:02 →              ARP 44 Who has 10.2.0.3? Tell 10.2.0.2"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4272 1759.280997100 02:42:0a:03:00:02 →              ARP 44 Who has 10.3.0.3? Tell 10.3.0.2"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4273 1759.281093700 02:42:0a:01:00:03 →              ARP 44 Who has 10.1.0.2? Tell 10.1.0.3"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4274 1759.281408400 02:42:0a:02:00:03 →              ARP 44 Who has 10.2.0.2? Tell 10.2.0.3"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4275 1759.281439500 02:42:0a:02:00:02 →              ARP 44 10.2.0.2 is at 02:42:0a:02:00:02"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4276 1759.281416000 02:42:0a:01:00:02 →              ARP 44 Who has 10.1.0.3? Tell 10.1.0.2"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4277 1759.281447000 02:42:0a:01:00:03 →              ARP 44 10.1.0.3 is at 02:42:0a:01:00:03"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4278 1759.281424000 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4279 1759.281460300 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4280 1759.281462700 02:42:0a:02:00:03 →              ARP 44 10.2.0.3 is at 02:42:0a:02:00:03"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4281 1759.281464600 02:42:0a:03:00:03 →              ARP 44 10.3.0.3 is at 02:42:0a:03:00:03"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4282 1759.281468900 02:42:0a:01:00:02 →              ARP 44 10.1.0.2 is at 02:42:0a:01:00:02"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4283 1759.285494700     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4284 1759.285516300     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4285 1759.285573500     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4286 1759.285580800     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4287 1759.317845200     10.2.0.3 → 224.0.0.5    OSPF 120 LS Acknowledge"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4288 1768.721990800     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4289 1768.726376500     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4290 1768.794847300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4291 1768.794869000     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4292 1768.794925200     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4293 1768.794934600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4294 1768.794981800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4295 1768.794988200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4296 1768.815436100     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4297 1778.722277900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4298 1778.722346500     10.1.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4299 1778.722487200     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4300 1778.722502200     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4301 1778.722559200     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4302 1778.722566000     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:00+00:00	routerBlogs	{"message":" 4303 1778.726395700     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3263 1748.255050300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3264 1748.255068800     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3265 1748.755295100     10.2.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3266 1748.755315400     10.2.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3267 1753.712022700     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4246 Ack=1 Win=64256 Len=72 TSval=651128293 TSecr=1274527751"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3268 1753.712106300   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4318 Win=64256 Len=0 TSval=1274588762 TSecr=651128293"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3269 1758.161465600     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3270 1758.166064700     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3271 1758.234240400     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3272 1758.234497000     10.2.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3273 1758.254988000     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3274 1758.255007900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3275 1758.255062100     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3276 1758.255069200     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3277 1758.255088300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3278 1758.255092900     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3279 1758.720910600 02:42:0a:02:00:03 →              ARP 44 Who has 10.2.0.2? Tell 10.2.0.3"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3280 1758.721370800 02:42:0a:02:00:02 →              ARP 44 Who has 10.2.0.3? Tell 10.2.0.2"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3281 1758.721396900 02:42:0a:02:00:03 →              ARP 44 10.2.0.3 is at 02:42:0a:02:00:03"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3282 1758.721427800 02:42:0a:02:00:02 →              ARP 44 10.2.0.2 is at 02:42:0a:02:00:02"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3283 1758.757785300     10.2.0.3 → 224.0.0.5    OSPF 120 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3284 1758.757806600     10.2.0.3 → 224.0.0.5    OSPF 120 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3285 1768.234897300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3286 1768.255379200     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3287 1768.255398000     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3288 1768.255454200     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3289 1768.255463300     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3290 1768.255487200     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3291 1768.255494300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3292 1778.162464600     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3293 1778.166602900     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3294 1778.235304400     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3295 1778.254063700     10.2.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3296 1778.254089300     10.2.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3297 1778.255363900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3298 1778.255373400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3299 1778.255413900     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3300 1778.255420200     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3301 1778.255437100     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3302 1778.255441300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3303 1778.735756000     10.2.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3304 1778.766405000     10.2.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3305 1778.766428000     10.2.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3306 1788.236185600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3307 1788.255409000     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3308 1788.255435200     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3309 1788.255495400     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3310 1788.255503100     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3311 1788.255523500     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3312 1788.255528900     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3313 1798.235742600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3314 1798.255090400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerClogs	{"message":" 3315 1798.255108600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3869 1752.432084400   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4318 Win=64256 Len=0 TSval=1274588762 TSecr=651128293"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3870 1752.432088600   10.200.0.3 → 10.2.0.3     TCP 68 [TCP Dup ACK 3869#1] 5140 → 36781 [ACK] Seq=1 Ack=4318 Win=64256 Len=0 TSval=1274588762 TSecr=651128293"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3871 1756.881185900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3872 1756.881208100   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3873 1756.881225900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3874 1756.881231700   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3875 1756.881245300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3876 1756.881250100     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3877 1756.881316000     10.1.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3878 1756.881320500     10.1.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3879 1756.886001600     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3880 1756.954144500     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3881 1756.954436700     10.1.0.3 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3882 1757.342548200     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3883 1757.342568100     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3884 1757.440971300 02:42:0a:01:00:02 →              ARP 44 Who has 10.1.0.3? Tell 10.1.0.2"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3885 1757.441051800 02:42:0a:c8:00:02 →              ARP 44 Who has 10.200.0.3? Tell 10.200.0.2"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3886 1757.441386100 02:42:0a:c8:00:03 →              ARP 44 Who has 10.200.0.2? Tell 10.200.0.3"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3887 1757.441418100 02:42:0a:c8:00:02 →              ARP 44 10.200.0.2 is at 02:42:0a:c8:00:02"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3888 1757.441389100 02:42:0a:01:00:03 →              ARP 44 Who has 10.1.0.2? Tell 10.1.0.3"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3889 1757.441424600 02:42:0a:01:00:02 →              ARP 44 10.1.0.2 is at 02:42:0a:01:00:02"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3890 1757.441432200 02:42:0a:01:00:03 →              ARP 44 10.1.0.3 is at 02:42:0a:01:00:03"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3891 1757.441434500 02:42:0a:c8:00:03 →              ARP 44 10.200.0.3 is at 02:42:0a:c8:00:03"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3892 1757.445481100     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3893 1766.881890200   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3894 1766.881912500   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3895 1766.881931300   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3896 1766.881937400   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3897 1766.881950800     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3898 1766.881955300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3899 1766.954833600     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3900 1776.882178000   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3901 1776.882200900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3902 1776.882219000   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3903 1776.882224500   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3904 1776.882237600     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3905 1776.882242500     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3906 1776.882308000     10.1.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3907 1776.882312200     10.1.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3908 1776.886548700     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3909 1776.955246800     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3910 1776.974291100     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3911 1777.352434600     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3912 1777.352454400     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3913 1777.455690900     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3914 1786.882182700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3915 1786.882201700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3916 1786.882218600   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3917 1786.882223900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3918 1786.882236400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3919 1786.882240900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3920 1786.956038900     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:20+00:00	routerAlogs	{"message":" 3921 1796.881864900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:35+00:00	fluent.warn	{"data":"<12>Dec  7 15:55:35 routerB kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:55:35 routerB kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:55:35+00:00	fluent.warn	{"data":"<12>Dec  7 15:55:35 routerD kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:55:35 routerD kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:55:35+00:00	fluent.warn	{"data":"<12>Dec  7 15:55:35 routerC kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:55:35 routerC kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:55:35+00:00	fluent.warn	{"data":"<12>Dec  7 15:55:35 routerA kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:55:35 routerA kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4304 1778.726488100     10.3.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4305 1778.726572600     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4306 1778.726583500     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4307 1778.726632200     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4308 1778.726640400     10.2.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4309 1778.795262900     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4310 1778.795281600     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4311 1778.795332900     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4312 1778.795341700     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4313 1778.795384800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4314 1778.795390900     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4315 1778.814127700     10.2.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4316 1778.814313800     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4317 1778.814325900     10.1.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4318 1778.814372000     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4319 1778.814377800     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4320 1778.815411700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4321 1779.166457200     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4322 1779.192490600     10.1.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4323 1779.295704600     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4324 1779.295725800     10.1.0.3 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4325 1779.295783900     10.2.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4326 1779.295793200     10.2.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4327 1779.295836800     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4328 1779.295843300     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4329 1779.326467500     10.2.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4330 1788.722276400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4331 1788.727358500     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4332 1788.796040900     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4333 1788.796075400     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4334 1788.796200900     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4335 1788.796225300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4336 1788.796339600     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4337 1788.796356700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4338 1788.815473600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4339 1798.721957200     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4340 1798.727250000     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4341 1798.795677700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4342 1798.795697400     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4343 1798.795769300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4344 1798.795780600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4345 1798.795836200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4346 1798.795842900     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4347 1798.815146700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4348 1808.721971400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4349 1808.727428400     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4350 1808.795705500     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4351 1808.795732700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4352 1808.795791000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4353 1808.795800400     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4354 1808.795841200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4355 1808.795847100     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4356 1808.815156900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4357 1815.271729100     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4318 Ack=1 Win=64256 Len=72 TSval=651189292 TSecr=1274588762"}
+2023-12-07T15:55:36+00:00	routerBlogs	{"message":" 4358 1815.271747600     10.2.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36781 → 5140 [PSH, ACK] Seq=4318 Ack=1 Win=64256 Len=72 TSval=651189292 TSecr=1274588762"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3922 1796.881883600   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3923 1796.881899900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3924 1796.881905100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3925 1796.881917200     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3926 1796.881922000     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3927 1796.955662500     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3928 1806.881877800   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3929 1806.881896900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3930 1806.881913600   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3931 1806.881919100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3932 1806.881931500     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3933 1806.881936100     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3934 1806.955697500     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3935 1813.431725800     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4318 Ack=1 Win=64256 Len=72 TSval=651189292 TSecr=1274588762"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3936 1813.431742700     10.2.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36781 → 5140 [PSH, ACK] Seq=4318 Ack=1 Win=64256 Len=72 TSval=651189292 TSecr=1274588762"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3937 1813.431782800   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4390 Win=64256 Len=0 TSval=1274649761 TSecr=651189292"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3938 1813.431789200   10.200.0.3 → 10.2.0.3     TCP 68 [TCP Dup ACK 3937#1] 5140 → 36781 [ACK] Seq=1 Ack=4390 Win=64256 Len=0 TSval=1274649761 TSecr=651189292"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3939 1813.431800500     10.3.0.3 → 10.200.0.3   TCP 140 36109 → 5140 [PSH, ACK] Seq=5364 Ack=1 Win=64256 Len=72 TSval=543095835 TSecr=1870963234"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3940 1813.431806900     10.3.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36109 → 5140 [PSH, ACK] Seq=5364 Ack=1 Win=64256 Len=72 TSval=543095835 TSecr=1870963234"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3941 1813.431823400   10.200.0.3 → 10.3.0.3     TCP 68 5140 → 36109 [ACK] Seq=1 Ack=5436 Win=64128 Len=0 TSval=1871024235 TSecr=543095835"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3942 1813.431826800   10.200.0.3 → 10.3.0.3     TCP 68 [TCP Dup ACK 3941#1] 5140 → 36109 [ACK] Seq=1 Ack=5436 Win=64128 Len=0 TSval=1871024235 TSecr=543095835"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3943 1813.431851800     10.1.0.3 → 10.200.0.3   TCP 140 35547 → 5140 [PSH, ACK] Seq=4263 Ack=1 Win=64256 Len=72 TSval=4094134565 TSecr=1243288204"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3944 1813.431858500     10.1.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 35547 → 5140 [PSH, ACK] Seq=4263 Ack=1 Win=64256 Len=72 TSval=4094134565 TSecr=1243288204"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3945 1813.431880400   10.200.0.3 → 10.1.0.3     TCP 68 5140 → 35547 [ACK] Seq=1 Ack=4335 Win=64512 Len=0 TSval=1243349205 TSecr=4094134565"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3946 1813.431884300   10.200.0.3 → 10.1.0.3     TCP 68 [TCP Dup ACK 3945#1] 5140 → 35547 [ACK] Seq=1 Ack=4335 Win=64512 Len=0 TSval=1243349205 TSecr=4094134565"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3947 1813.435608600   10.200.0.2 → 10.200.0.3   TCP 140 36335 → 5140 [PSH, ACK] Seq=2199 Ack=1 Win=502 Len=72 TSval=2382897065 TSecr=1029720144"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3948 1813.435684900   10.200.0.3 → 10.200.0.2   TCP 68 5140 → 36335 [ACK] Seq=1 Ack=2271 Win=503 Len=0 TSval=1029781148 TSecr=2382897065"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3949 1816.882122300   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3950 1816.882140900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3951 1816.882157900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3952 1816.882162700   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3953 1816.882174700     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3954 1816.882179000     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3955 1816.955686600     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3956 1818.480529600 02:42:0a:01:00:02 →              ARP 44 Who has 10.1.0.3? Tell 10.1.0.2"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3957 1818.480585000 02:42:0a:c8:00:02 →              ARP 44 Who has 10.200.0.3? Tell 10.200.0.2"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3958 1818.480707300 02:42:0a:c8:00:03 →              ARP 44 Who has 10.200.0.2? Tell 10.200.0.3"}
+2023-12-07T15:55:42+00:00	routerAlogs	{"message":" 3959 1818.480727700 02:42:0a:c8:00:02 →              ARP 44 10.200.0.2 is at 02:42:0a:c8:00:02"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1510 1768.554346500     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1511 1778.481923700     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1512 1778.485732200     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1513 1778.485753100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1514 1778.485802600     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1515 1778.485809400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1516 1778.485826100     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1517 1778.485830600     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1518 1778.485841300     10.3.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1519 1778.485844600     10.3.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1520 1778.554748800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1521 1778.573735400     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1522 1778.925792900     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1523 1778.925814400     10.3.0.3 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1524 1779.055201300     10.3.0.2 → 224.0.0.5    OSPF 80 LS Acknowledge"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1525 1788.486662600     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1526 1788.486715900     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1527 1788.486775900     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1528 1788.486783500     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1529 1788.486802900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1530 1788.486808600     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1531 1788.555716100     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1532 1798.486587900     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1533 1798.486607100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1534 1798.486661500     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1535 1798.486668400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1536 1798.486685100     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1537 1798.486690000     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1538 1798.555200500     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1539 1808.486764700     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1540 1808.486786000     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1541 1808.486841200     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1542 1808.486848200     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1543 1808.486865700     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1544 1808.486870300     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1545 1808.555204500     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1546 1815.031155600     10.3.0.3 → 10.200.0.3   TCP 140 36109 → 5140 [PSH, ACK] Seq=5364 Ack=1 Win=64256 Len=72 TSval=543095835 TSecr=1870963234"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1547 1815.031226900   10.200.0.3 → 10.3.0.3     TCP 68 5140 → 36109 [ACK] Seq=1 Ack=5436 Win=64128 Len=0 TSval=1871024235 TSecr=543095835"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1548 1818.486773700     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1549 1818.486794100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1550 1818.486849700     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1551 1818.486857100     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1552 1818.486875700     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1553 1818.486880500     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1554 1818.555180300     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1555 1820.079903000 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1556 1820.079980800 02:42:0a:03:00:02 →              ARP 44 Who has 10.3.0.3? Tell 10.3.0.2"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1557 1820.079991200 02:42:0a:03:00:03 →              ARP 44 10.3.0.3 is at 02:42:0a:03:00:03"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1558 1820.079999700 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1559 1828.486588200     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1560 1828.486607100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1561 1828.486661400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1562 1828.486668200     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:55:50+00:00	routerDlogs	{"message":" 1563 1828.486685300     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4359 1815.271816500     10.3.0.3 → 10.200.0.3   TCP 140 36109 → 5140 [PSH, ACK] Seq=5364 Ack=1 Win=64256 Len=72 TSval=543095835 TSecr=1870963234"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4360 1815.271825900     10.3.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36109 → 5140 [PSH, ACK] Seq=5364 Ack=1 Win=64256 Len=72 TSval=543095835 TSecr=1870963234"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4361 1815.271826800   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4390 Win=64256 Len=0 TSval=1274649761 TSecr=651189292"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4362 1815.271831300   10.200.0.3 → 10.2.0.3     TCP 68 [TCP Dup ACK 4361#1] 5140 → 36781 [ACK] Seq=1 Ack=4390 Win=64256 Len=0 TSval=1274649761 TSecr=651189292"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4363 1815.271863400   10.200.0.3 → 10.3.0.3     TCP 68 5140 → 36109 [ACK] Seq=1 Ack=5436 Win=64128 Len=0 TSval=1871024235 TSecr=543095835"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4364 1815.271867900   10.200.0.3 → 10.3.0.3     TCP 68 [TCP Dup ACK 4363#1] 5140 → 36109 [ACK] Seq=1 Ack=5436 Win=64128 Len=0 TSval=1871024235 TSecr=543095835"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4365 1815.271873800     10.1.0.3 → 10.200.0.3   TCP 140 35547 → 5140 [PSH, ACK] Seq=4263 Ack=1 Win=64256 Len=72 TSval=4094134565 TSecr=1243288204"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4366 1815.271920900   10.200.0.3 → 10.1.0.3     TCP 68 5140 → 35547 [ACK] Seq=1 Ack=4335 Win=64512 Len=0 TSval=1243349205 TSecr=4094134565"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4367 1818.722214300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4368 1818.727436600     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4369 1818.795703300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4370 1818.795721700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4371 1818.795769000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4372 1818.795777600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4373 1818.795817100     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4374 1818.795822800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4375 1818.815191900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4376 1820.320496400 02:42:0a:03:00:02 →              ARP 44 Who has 10.3.0.3? Tell 10.3.0.2"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4377 1820.320552400 02:42:0a:02:00:02 →              ARP 44 Who has 10.2.0.3? Tell 10.2.0.2"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4378 1820.320627500 02:42:0a:01:00:03 →              ARP 44 Who has 10.1.0.2? Tell 10.1.0.3"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4379 1820.320627700 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4380 1820.320641100 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4381 1820.320643300 02:42:0a:03:00:03 →              ARP 44 10.3.0.3 is at 02:42:0a:03:00:03"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4382 1820.320737500 02:42:0a:01:00:02 →              ARP 44 Who has 10.1.0.3? Tell 10.1.0.2"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4383 1820.320756200 02:42:0a:01:00:03 →              ARP 44 10.1.0.3 is at 02:42:0a:01:00:03"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4384 1820.320745600 02:42:0a:02:00:03 →              ARP 44 Who has 10.2.0.2? Tell 10.2.0.3"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4385 1820.320769700 02:42:0a:02:00:02 →              ARP 44 10.2.0.2 is at 02:42:0a:02:00:02"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4386 1820.320771600 02:42:0a:02:00:03 →              ARP 44 10.2.0.3 is at 02:42:0a:02:00:03"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4387 1820.320775300 02:42:0a:01:00:02 →              ARP 44 10.1.0.2 is at 02:42:0a:01:00:02"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4388 1828.722417300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4389 1828.727249600     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4390 1828.795387100     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4391 1828.795405700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4392 1828.795456300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4393 1828.795464800     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4394 1828.795507200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4395 1828.795513000     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4396 1828.814688300     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4397 1838.722604700     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4398 1838.727519400     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4399 1838.795933400     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4400 1838.795952100     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4401 1838.796002700     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:00+00:00	routerBlogs	{"message":" 4402 1838.796011600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3316 1798.255160500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3317 1798.255167800     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3318 1798.255185700     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3319 1798.255190300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3320 1808.235762800     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3321 1808.255102600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3322 1808.255118600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3323 1808.255165400     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3324 1808.255171700     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3325 1808.255189200     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3326 1808.255193800     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3327 1814.711664700     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4318 Ack=1 Win=64256 Len=72 TSval=651189292 TSecr=1274588762"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3328 1814.711800700   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4390 Win=64256 Len=0 TSval=1274649761 TSecr=651189292"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3329 1818.235740100     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3330 1818.255136500     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3331 1818.255153700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3332 1818.255217500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3333 1818.255225700     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3334 1818.255247300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3335 1818.255253300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3336 1819.760633400 02:42:0a:02:00:03 →              ARP 44 Who has 10.2.0.2? Tell 10.2.0.3"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3337 1819.760698000 02:42:0a:02:00:02 →              ARP 44 Who has 10.2.0.3? Tell 10.2.0.2"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3338 1819.760716700 02:42:0a:02:00:03 →              ARP 44 10.2.0.3 is at 02:42:0a:02:00:03"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3339 1819.760740500 02:42:0a:02:00:02 →              ARP 44 10.2.0.2 is at 02:42:0a:02:00:02"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3340 1828.235427600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3341 1828.254634400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3342 1828.254650400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3343 1828.254695500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3344 1828.254701700     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3345 1828.254718800     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3346 1828.254723000     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3347 1838.235974400     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3348 1838.254720900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3349 1838.254736700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3350 1838.254783900     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3351 1838.254790500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3352 1838.254806600     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3353 1838.254811400     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3354 1848.235984100     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3355 1848.254733600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3356 1848.254749300     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3357 1848.254795300     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3358 1848.254801500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3359 1848.254818400     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3360 1848.254822600     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3361 1858.237069000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3362 1858.255152800     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3363 1858.255172400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3364 1858.255220100     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3365 1858.255226700     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3366 1858.255244300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3367 1858.255249200     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3368 1868.237049900     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:30+00:00	routerClogs	{"message":" 3369 1868.255176600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:36+00:00	fluent.warn	{"data":"<12>Dec  7 15:56:36 routerC kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:56:36 routerC kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:56:36+00:00	fluent.warn	{"data":"<12>Dec  7 15:56:36 routerA kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:56:36 routerA kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:56:36+00:00	fluent.warn	{"data":"<12>Dec  7 15:56:36 routerD kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:56:36 routerD kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:56:36+00:00	fluent.warn	{"data":"<12>Dec  7 15:56:36 routerB kernel: WSL2: Performing memory compaction.","message":"failed to parse message data=\"<12>Dec  7 15:56:36 routerB kernel: WSL2: Performing memory compaction.\""}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3960 1818.480710500 02:42:0a:01:00:03 →              ARP 44 Who has 10.1.0.2? Tell 10.1.0.3"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3961 1818.480733800 02:42:0a:01:00:02 →              ARP 44 10.1.0.2 is at 02:42:0a:01:00:02"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3962 1818.480739100 02:42:0a:01:00:03 →              ARP 44 10.1.0.3 is at 02:42:0a:01:00:03"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3963 1818.480741100 02:42:0a:c8:00:03 →              ARP 44 10.200.0.3 is at 02:42:0a:c8:00:03"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3964 1826.882253500   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3965 1826.882275600   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3966 1826.882295300   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3967 1826.882320400   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3968 1826.882373900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3969 1826.882381400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3970 1826.955370900     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3971 1836.882495800   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3972 1836.882519800   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3973 1836.882541200   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3974 1836.882548900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3975 1836.882563700     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3976 1836.882568800     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3977 1836.955917300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3978 1846.883415700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3979 1846.883438600   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3980 1846.883457900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3981 1846.883463700   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3982 1846.883477200     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3983 1846.883481900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3984 1846.955926400     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3985 1856.883821200   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3986 1856.883843400   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3987 1856.883862500   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3988 1856.883868100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3989 1856.883881300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3990 1856.883886400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3991 1856.957006800     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3992 1866.883943400   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3993 1866.883966600   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3994 1866.883986100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3995 1866.883992700   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3996 1866.884010500     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3997 1866.884015900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3998 1866.956999800     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 3999 1874.430968700     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4390 Ack=1 Win=64256 Len=72 TSval=651250292 TSecr=1274649761"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4000 1874.430979100     10.2.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36781 → 5140 [PSH, ACK] Seq=4390 Ack=1 Win=64256 Len=72 TSval=651250292 TSecr=1274649761"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4001 1874.431015200   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4462 Win=64256 Len=0 TSval=1274710761 TSecr=651250292"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4002 1874.431020700   10.200.0.3 → 10.2.0.3     TCP 68 [TCP Dup ACK 4001#1] 5140 → 36781 [ACK] Seq=1 Ack=4462 Win=64256 Len=0 TSval=1274710761 TSecr=651250292"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4003 1874.431089600     10.1.0.3 → 10.200.0.3   TCP 140 35547 → 5140 [PSH, ACK] Seq=4335 Ack=1 Win=64256 Len=72 TSval=4094195564 TSecr=1243349205"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4004 1874.431099000     10.1.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 35547 → 5140 [PSH, ACK] Seq=4335 Ack=1 Win=64256 Len=72 TSval=4094195564 TSecr=1243349205"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4005 1874.431148500   10.200.0.3 → 10.1.0.3     TCP 68 5140 → 35547 [ACK] Seq=1 Ack=4407 Win=64512 Len=0 TSval=1243410204 TSecr=4094195564"}
+2023-12-07T15:56:37+00:00	routerAlogs	{"message":" 4006 1874.431156300   10.200.0.3 → 10.1.0.3     TCP 68 [TCP Dup ACK 4005#1] 5140 → 35547 [ACK] Seq=1 Ack=4407 Win=64512 Len=0 TSval=1243410204 TSecr=4094195564"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4403 1838.796054200     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4404 1838.796060400     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4405 1838.814774700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4406 1848.723517500     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4407 1848.728100900     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4408 1848.795942900     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4409 1848.795961200     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4410 1848.796012600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4411 1848.796021300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4412 1848.796063500     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4413 1848.796069700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4414 1848.814787400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4415 1858.723921900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4416 1858.728508100     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4417 1858.797020300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4418 1858.797041700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4419 1858.797097000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4420 1858.797106300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4421 1858.797152900     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4422 1858.797159800     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4423 1858.815210600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4424 1868.724051400     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4425 1868.728502700     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4426 1868.797017400     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4427 1868.797034700     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4428 1868.797078900     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4429 1868.797087000     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4430 1868.797125400     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4431 1868.797130700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4432 1868.815233200     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4433 1876.270976100     10.2.0.3 → 10.200.0.3   TCP 140 36781 → 5140 [PSH, ACK] Seq=4390 Ack=1 Win=64256 Len=72 TSval=651250292 TSecr=1274649761"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4434 1876.270992500     10.2.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36781 → 5140 [PSH, ACK] Seq=4390 Ack=1 Win=64256 Len=72 TSval=651250292 TSecr=1274649761"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4435 1876.271060100   10.200.0.3 → 10.2.0.3     TCP 68 5140 → 36781 [ACK] Seq=1 Ack=4462 Win=64256 Len=0 TSval=1274710761 TSecr=651250292"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4436 1876.271066400   10.200.0.3 → 10.2.0.3     TCP 68 [TCP Dup ACK 4435#1] 5140 → 36781 [ACK] Seq=1 Ack=4462 Win=64256 Len=0 TSval=1274710761 TSecr=651250292"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4437 1876.271111300     10.1.0.3 → 10.200.0.3   TCP 140 35547 → 5140 [PSH, ACK] Seq=4335 Ack=1 Win=64256 Len=72 TSval=4094195564 TSecr=1243349205"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4438 1876.271194000   10.200.0.3 → 10.1.0.3     TCP 68 5140 → 35547 [ACK] Seq=1 Ack=4407 Win=64512 Len=0 TSval=1243410204 TSecr=4094195564"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4439 1876.271238600     10.3.0.3 → 10.200.0.3   TCP 140 36109 → 5140 [PSH, ACK] Seq=5436 Ack=1 Win=64256 Len=72 TSval=543156835 TSecr=1871024235"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4440 1876.271246500     10.3.0.3 → 10.200.0.3   TCP 140 [TCP Retransmission] 36109 → 5140 [PSH, ACK] Seq=5436 Ack=1 Win=64256 Len=72 TSval=543156835 TSecr=1871024235"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4441 1876.271281600   10.200.0.3 → 10.3.0.3     TCP 68 5140 → 36109 [ACK] Seq=1 Ack=5508 Win=64128 Len=0 TSval=1871085234 TSecr=543156835"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4442 1876.271286700   10.200.0.3 → 10.3.0.3     TCP 68 [TCP Dup ACK 4441#1] 5140 → 36109 [ACK] Seq=1 Ack=5508 Win=64128 Len=0 TSval=1871085234 TSecr=543156835"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4443 1878.724247200     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4444 1878.729103900     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4445 1878.797043600     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4446 1878.797065100     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-07T15:56:40+00:00	routerBlogs	{"message":" 4447 1878.797134100     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}

@@ -5,10 +5,7 @@
 #
 Recogida de los logs de cada Router a nivel de red:
 - tshark (wireshark en linea de comandos) instalado en la imagen de los 4 routers
-- En cada entrypoint se ejecuta:  
-
-
-- Se recoge  TODO el tráfico de cada router y se aloja la salida en /shared-volume/tshark con el nombre del fichero hostnameDelRouter+Log.txt. El comando para ello es el siguiente: (se puede acotar el tráfico)
+- Se recoge  TODO el tráfico de cada router y se aloja la salida en /shared-volume/tshark con el nombre del fichero hostnameDelRouter+Log.txt. El comando que se ejecuta en cada entrypoint es el siguiente: (se puede acotar el tráfico)
 ```sh
 tshark -i any > /shared-volume/"$(hostname)"Log.txt &
 ```
