@@ -10,7 +10,7 @@
 - hping3 instalado en los clientes para realizar SYN Flood a otros hosts de la red y comprobar que datos se recogen.
 - Probando con el siguiente comando para determinar los parametros a recoger:
 tshark -i any -f "tcp[tcpflags] & (tcp-syn) != 0 and (tcp[tcpflags] & (tcp-ack) = 0)" -T fields -e frame.time -e ip.src -e ip.dst -e tcp.srcport -e tcp.dstport -e tcp.flags.syn -e tcp.flags.ack -e tcp.flags.res -E header=y -E separator=, -E quote=d -E occurrence=f >> /shared-volume/pruebaD.csv
-- eBPF descartado por el momento debido a la dependencia del kernel.
+- eBPF/BCC descartado por el momento debido a la dependencia del kernel.
 
 
 ##### 7/12/2023:
