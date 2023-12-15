@@ -1,0 +1,329 @@
+2023-12-15T18:50:46+00:00	fluent.info	{"pid":15,"ppid":7,"worker":0,"message":"starting fluentd worker pid=15 ppid=7 worker=0"}
+2023-12-15T18:50:46+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerDLog.txt"}
+2023-12-15T18:50:46+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerCLog.txt"}
+2023-12-15T18:50:46+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerBLog.txt"}
+2023-12-15T18:50:46+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerALog.txt"}
+2023-12-15T18:50:46+00:00	fluent.info	{"message":"listening syslog socket on 0.0.0.0:5140 with tcp"}
+2023-12-15T18:50:46+00:00	fluent.info	{"port":24224,"bind":"0.0.0.0","message":"listening port port=24224 bind=\"0.0.0.0\""}
+2023-12-15T18:50:46+00:00	fluent.info	{"worker":0,"message":"fluentd worker is now running worker=0"}
+2023-12-15T18:50:47+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":" * Starting system logging syslog-ng","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:47+00:00	routerD	{"log":"[2023-12-15T18:50:47.505164] WARNING: Configuration file format is too old, syslog-ng is running in compatibility mode. Please update it to use the syslog-ng 3.35 format at your time of convenience. To upgrade the configuration, please review the warnings about incompatible changes printed by syslog-ng, and once completed change the @version header at the top of the configuration file; config-version='3.27'","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stderr"}
+2023-12-15T18:50:47+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stderr","log":"[2023-12-15T18:50:47.564651] WARNING: The internal_queue_length stat counter has been renamed to internal_source.queued. The old name will be removed in future versions; config-version='3.27'"}
+2023-12-15T18:50:47+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"   ...done.","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:48+00:00	routerC	{"log":" * Starting system logging syslog-ng","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout"}
+2023-12-15T18:50:48+00:00	routerC	{"log":"[2023-12-15T18:50:48.194007] WARNING: Configuration file format is too old, syslog-ng is running in compatibility mode. Please update it to use the syslog-ng 3.35 format at your time of convenience. To upgrade the configuration, please review the warnings about incompatible changes printed by syslog-ng, and once completed change the @version header at the top of the configuration file; config-version='3.27'","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stderr"}
+2023-12-15T18:50:48+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":" * Starting system logging syslog-ng","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:48+00:00	routerA	{"log":"[2023-12-15T18:50:48.248140] WARNING: Configuration file format is too old, syslog-ng is running in compatibility mode. Please update it to use the syslog-ng 3.35 format at your time of convenience. To upgrade the configuration, please review the warnings about incompatible changes printed by syslog-ng, and once completed change the @version header at the top of the configuration file; config-version='3.27'","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stderr"}
+2023-12-15T18:50:48+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stderr","log":"[2023-12-15T18:50:48.275431] WARNING: The internal_queue_length stat counter has been renamed to internal_source.queued. The old name will be removed in future versions; config-version='3.27'"}
+2023-12-15T18:50:48+00:00	routerC	{"log":"   ...done.","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout"}
+2023-12-15T18:50:48+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stderr","log":"[2023-12-15T18:50:48.337838] WARNING: The internal_queue_length stat counter has been renamed to internal_source.queued. The old name will be removed in future versions; config-version='3.27'"}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<45>Dec 15 18:50:48 routerA syslog-ng[16]: syslog-ng starting up; version='3.35.1'","message":"failed to parse message data=\"<45>Dec 15 18:50:48 routerA syslog-ng[16]: syslog-ng starting up; version='3.35.1'\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<45>Dec 15 18:50:48 routerA syslog-ng[16]: Syslog connection established; fd='15', server='AF_INET(10.200.0.3:5140)', local='AF_INET(0.0.0.0:0)'","message":"failed to parse message data=\"<45>Dec 15 18:50:48 routerA syslog-ng[16]: Syslog connection established; fd='15', server='AF_INET(10.200.0.3:5140)', local='AF_INET(0.0.0.0:0)'\""}
+2023-12-15T18:50:48+00:00	routerA	{"log":"   ...done.","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout"}
+2023-12-15T18:50:48+00:00	routerB	{"source":"stdout","log":" * Starting system logging syslog-ng","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:48+00:00	routerB	{"source":"stderr","log":"[2023-12-15T18:50:48.435810] WARNING: Configuration file format is too old, syslog-ng is running in compatibility mode. Please update it to use the syslog-ng 3.35 format at your time of convenience. To upgrade the configuration, please review the warnings about incompatible changes printed by syslog-ng, and once completed change the @version header at the top of the configuration file; config-version='3.27'","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:48 routerA watchfrr[37]: [T83RR-8SM5G] watchfrr 8.1 starting: vty@0","message":"failed to parse message data=\"<29>Dec 15 18:50:48 routerA watchfrr[37]: [T83RR-8SM5G] watchfrr 8.1 starting: vty@0\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] zebra state -> down : initial connection attempt failed","message":"failed to parse message data=\"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] zebra state -> down : initial connection attempt failed\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] bgpd state -> down : initial connection attempt failed","message":"failed to parse message data=\"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] bgpd state -> down : initial connection attempt failed\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] ospfd state -> down : initial connection attempt failed","message":"failed to parse message data=\"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] ospfd state -> down : initial connection attempt failed\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] staticd state -> down : initial connection attempt failed","message":"failed to parse message data=\"<30>Dec 15 18:50:48 routerA watchfrr[37]: [ZCJ3S-SPH5S] staticd state -> down : initial connection attempt failed\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:48 routerA watchfrr[37]: [YFT0P-5Q5YX] Forked background command [pid 38]: /usr/lib/frr/watchfrr.sh restart all","message":"failed to parse message data=\"<30>Dec 15 18:50:48 routerA watchfrr[37]: [YFT0P-5Q5YX] Forked background command [pid 38]: /usr/lib/frr/watchfrr.sh restart all\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<27>Dec 15 18:50:48 routerA watchfrr.sh[52]: Cannot stop bgpd: pid file not found","message":"failed to parse message data=\"<27>Dec 15 18:50:48 routerA watchfrr.sh[52]: Cannot stop bgpd: pid file not found\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<27>Dec 15 18:50:48 routerA watchfrr.sh[48]: Cannot stop staticd: pid file not found","message":"failed to parse message data=\"<27>Dec 15 18:50:48 routerA watchfrr.sh[48]: Cannot stop staticd: pid file not found\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<27>Dec 15 18:50:48 routerA watchfrr.sh[54]: Cannot stop zebra: pid file not found","message":"failed to parse message data=\"<27>Dec 15 18:50:48 routerA watchfrr.sh[54]: Cannot stop zebra: pid file not found\""}
+2023-12-15T18:50:48+00:00	fluent.warn	{"data":"<27>Dec 15 18:50:48 routerA watchfrr.sh[50]: Cannot stop ospfd: pid file not found","message":"failed to parse message data=\"<27>Dec 15 18:50:48 routerA watchfrr.sh[50]: Cannot stop ospfd: pid file not found\""}
+2023-12-15T18:50:48+00:00	routerB	{"source":"stderr","log":"[2023-12-15T18:50:48.560250] WARNING: The internal_queue_length stat counter has been renamed to internal_source.queued. The old name will be removed in future versions; config-version='3.27'","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:48+00:00	routerB	{"source":"stdout","log":"   ...done.","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:48+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":" * Started watchfrr"}
+2023-12-15T18:50:49+00:00	routerD	{"log":"","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"Hello, this is FRRouting (version 8.1)."}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"Copyright 1996-2005 Kunihiro Ishiguro, et al."}
+2023-12-15T18:50:49+00:00	routerD	{"log":"","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout"}
+2023-12-15T18:50:49+00:00	routerD	{"log":"routerD# conf t","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config)# log file /shared-volume/frr/frr4.log"}
+2023-12-15T18:50:49+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"can't open logfile /shared-volume/frr/frr4.log","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config)# router ospf"}
+2023-12-15T18:50:49+00:00	routerD	{"log":"routerD(config-router)# network 10.3.0.0/29 area 0","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout"}
+2023-12-15T18:50:49+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config-router)# network 10.0.3.0/24 area 0","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<6>Dec 15 18:50:49 routerA kernel: eth0: renamed from veth49c80a8","message":"failed to parse message data=\"<6>Dec 15 18:50:49 routerA kernel: eth0: renamed from veth49c80a8\""}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config-router)# network 10.0.4.0/24 area 0"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config-router)# network 10.100.10.0/24 area 0"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD(config-router)# network 10.100.0.0/24 area 0"}
+2023-12-15T18:50:49+00:00	routerD	{"source":"stdout","log":"routerD(config-router)# ","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1"}
+2023-12-15T18:50:49+00:00	routerD	{"log":"routerD(config-router)# end","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout"}
+2023-12-15T18:50:49+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"routerD# "}
+2023-12-15T18:50:49+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stdout","log":"update-alternatives: using /usr/sbin/iptables-legacy to provide /usr/sbin/iptables (iptables) in manual mode","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<6>Dec 15 18:50:49 routerA kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethddd0777: link becomes ready","message":"failed to parse message data=\"<6>Dec 15 18:50:49 routerA kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethddd0777: link becomes ready\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<6>Dec 15 18:50:49 routerA kernel: br-79b21eb34030: port 2(vethddd0777) entered blocking state","message":"failed to parse message data=\"<6>Dec 15 18:50:49 routerA kernel: br-79b21eb34030: port 2(vethddd0777) entered blocking state\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<6>Dec 15 18:50:49 routerA kernel: br-79b21eb34030: port 2(vethddd0777) entered forwarding state","message":"failed to parse message data=\"<6>Dec 15 18:50:49 routerA kernel: br-79b21eb34030: port 2(vethddd0777) entered forwarding state\""}
+2023-12-15T18:50:49+00:00	routerD	{"log":"Running as user \"root\" and group \"root\". This could be dangerous.","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stderr"}
+2023-12-15T18:50:49+00:00	routerC	{"container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":" * Started watchfrr","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934"}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:49 routerA zebra[56]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00","message":"failed to parse message data=\"<30>Dec 15 18:50:49 routerA zebra[56]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:49 routerA ospfd[68]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00","message":"failed to parse message data=\"<30>Dec 15 18:50:49 routerA ospfd[68]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:49 routerA bgpd[61]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00","message":"failed to parse message data=\"<30>Dec 15 18:50:49 routerA bgpd[61]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<30>Dec 15 18:50:49 routerA staticd[71]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00","message":"failed to parse message data=\"<30>Dec 15 18:50:49 routerA staticd[71]: [VTVCM-Y2NW3] Configuration Read in Took: 00:00:00\""}
+2023-12-15T18:50:49+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":" * Started watchfrr","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] zebra state -> up : connect succeeded","message":"failed to parse message data=\"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] zebra state -> up : connect succeeded\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] bgpd state -> up : connect succeeded","message":"failed to parse message data=\"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] bgpd state -> up : connect succeeded\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] ospfd state -> up : connect succeeded","message":"failed to parse message data=\"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] ospfd state -> up : connect succeeded\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] staticd state -> up : connect succeeded","message":"failed to parse message data=\"<29>Dec 15 18:50:49 routerA watchfrr[37]: [QDG3Y-BY5TN] staticd state -> up : connect succeeded\""}
+2023-12-15T18:50:49+00:00	fluent.warn	{"data":"<29>Dec 15 18:50:49 routerA watchfrr[37]: [KWE5Q-QNGFC] all daemons up, doing startup-complete notify","message":"failed to parse message data=\"<29>Dec 15 18:50:49 routerA watchfrr[37]: [KWE5Q-QNGFC] all daemons up, doing startup-complete notify\""}
+2023-12-15T18:50:49+00:00	routerB	{"source":"stdout","log":" * Started watchfrr","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:50+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stderr","log":"Capturing on 'any'"}
+2023-12-15T18:50:50+00:00	routerD	{"container_name":"/tfg-software-dockers2-routerd-1","source":"stderr","log":" ** (tshark:80) 18:50:50.254218 [Main MESSAGE] -- Capture started.","container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9"}
+2023-12-15T18:50:50+00:00	routerD	{"container_id":"530f9184cb9bff34ebe0d10100560fb4d6f4deb0aba2600c296203c271137fa9","container_name":"/tfg-software-dockers2-routerd-1","source":"stderr","log":" ** (tshark:80) 18:50:50.254307 [Main MESSAGE] -- File: \"/tmp/wireshark_any68C4F2.pcapng\""}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"Hello, this is FRRouting (version 8.1).","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"Copyright 1996-2005 Kunihiro Ishiguro, et al."}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"log":"routerC# conf t","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config)# log file /shared-volume/frr/frr2.log"}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"can't open logfile /shared-volume/frr/frr2.log","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"routerC(config)# router ospf ","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# network 10.2.0.0/29 area 0"}
+2023-12-15T18:50:50+00:00	routerC	{"source":"stdout","log":"routerC(config-router)# network 10.0.1.0/24 area 0","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:50+00:00	routerC	{"log":"routerC(config-router)# network 10.0.2.0/24 area 0","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerC	{"container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# network 10.0.3.0/24 area 0","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# network 10.0.4.0/24 area 0"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# network 10.3.0.0/29 area 0"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# network 10.100.0.0/24 area 0"}
+2023-12-15T18:50:50+00:00	fluent.info	{"message":"detected rotation of ./shared-volume/tshark/routerDLog.txt"}
+2023-12-15T18:50:50+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerDLog.txt"}
+2023-12-15T18:50:50+00:00	routerC	{"container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# ","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC(config-router)# end"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"routerC# "}
+2023-12-15T18:50:50+00:00	routerA	{"log":"","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"Hello, this is FRRouting (version 8.1)."}
+2023-12-15T18:50:50+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"Copyright 1996-2005 Kunihiro Ishiguro, et al.","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":""}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA# conf t"}
+2023-12-15T18:50:50+00:00	routerA	{"log":"routerA(config)# log file /shared-volume/frr/frr1.log","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"can't open logfile /shared-volume/frr/frr1.log"}
+2023-12-15T18:50:50+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config)# router ospf","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config-router)# network 10.100.0.0/24 area 0"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config-router)# network 10.200.0.0/30 area 0"}
+2023-12-15T18:50:50+00:00	routerA	{"source":"stdout","log":"routerA(config-router)# network 10.1.0.0/30 area 0","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1"}
+2023-12-15T18:50:50+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config-router)# network 10.100.10.0/24 area 0","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config-router)# "}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA(config-router)# end"}
+2023-12-15T18:50:50+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout","log":"routerA# "}
+2023-12-15T18:50:50+00:00	routerA	{"log":"update-alternatives: using /usr/sbin/iptables-legacy to provide /usr/sbin/iptables (iptables) in manual mode","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerC	{"container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stdout","log":"update-alternatives: using /usr/sbin/iptables-legacy to provide /usr/sbin/iptables (iptables) in manual mode"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":""}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"Hello, this is FRRouting (version 8.1)."}
+2023-12-15T18:50:50+00:00	routerB	{"container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"Copyright 1996-2005 Kunihiro Ishiguro, et al.","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":""}
+2023-12-15T18:50:50+00:00	routerB	{"log":"routerB# conf t","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"routerB(config)# log file /shared-volume/frr/frr2.log"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"can't open logfile /shared-volume/frr/frr2.log"}
+2023-12-15T18:50:50+00:00	routerB	{"container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"routerB(config)# router ospf","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d"}
+2023-12-15T18:50:50+00:00	routerB	{"log":"routerB(config-router)# network 10.1.0.0/30 area 0","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerB	{"log":"routerB(config-router)# network 10.2.0.0/29 area 0","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerB	{"log":"routerB(config-router)# network 10.100.10.0/24 area 0","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"routerB(config-router)# network 10.3.0.0/29 area 0"}
+2023-12-15T18:50:50+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"routerB(config-router)# network 10.4.0.0/29 area 0"}
+2023-12-15T18:50:50+00:00	routerB	{"container_name":"/tfg-software-dockers2-routerb-1","source":"stdout","log":"routerB(config-router)# network 10.100.0.0/24 area 0","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d"}
+2023-12-15T18:50:50+00:00	routerB	{"log":"routerB(config-router)# end","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stdout"}
+2023-12-15T18:50:50+00:00	routerB	{"source":"stdout","log":"routerB# ","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:50+00:00	routerC	{"log":"Running as user \"root\" and group \"root\". This could be dangerous.","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stderr"}
+2023-12-15T18:50:50+00:00	routerB	{"source":"stderr","log":"Running as user \"root\" and group \"root\". This could be dangerous.","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1"}
+2023-12-15T18:50:50+00:00	routerA	{"source":"stderr","log":"Running as user \"root\" and group \"root\". This could be dangerous.","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1"}
+2023-12-15T18:50:51+00:00	routerC	{"source":"stderr","log":"Capturing on 'any'","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1"}
+2023-12-15T18:50:51+00:00	routerB	{"container_name":"/tfg-software-dockers2-routerb-1","source":"stderr","log":"Capturing on 'any'","container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d"}
+2023-12-15T18:50:51+00:00	fluent.info	{"message":"detected rotation of ./shared-volume/tshark/routerCLog.txt"}
+2023-12-15T18:50:51+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerCLog.txt"}
+2023-12-15T18:50:51+00:00	fluent.info	{"message":"detected rotation of ./shared-volume/tshark/routerALog.txt"}
+2023-12-15T18:50:51+00:00	fluent.info	{"message":"following tail of ./shared-volume/tshark/routerALog.txt"}
+2023-12-15T18:50:51+00:00	routerC	{"log":" ** (tshark:79) 18:50:51.464749 [Main MESSAGE] -- Capture started.","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stderr"}
+2023-12-15T18:50:51+00:00	routerC	{"log":" ** (tshark:79) 18:50:51.464835 [Main MESSAGE] -- File: \"/tmp/wireshark_anyGQ1YF2.pcapng\"","container_id":"2a7f6df7292a067410dce9b09e2a0797d4ff676f170e24715f4c8acfb68cc934","container_name":"/tfg-software-dockers2-routerc-1","source":"stderr"}
+2023-12-15T18:50:51+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stderr","log":" ** (tshark:76) 18:50:51.464858 [Main MESSAGE] -- Capture started."}
+2023-12-15T18:50:51+00:00	routerB	{"container_id":"e5c002c1e9737d020dd1fa30d54795ea54ecaddba955f7ce7d94158de6f2e84d","container_name":"/tfg-software-dockers2-routerb-1","source":"stderr","log":" ** (tshark:76) 18:50:51.464932 [Main MESSAGE] -- File: \"/tmp/wireshark_any3R1YF2.pcapng\""}
+2023-12-15T18:50:51+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stderr","log":"Capturing on 'any'","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:50:51+00:00	routerA	{"container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199","container_name":"/tfg-software-dockers2-routera-1","source":"stderr","log":" ** (tshark:78) 18:50:51.684679 [Main MESSAGE] -- Capture started."}
+2023-12-15T18:50:51+00:00	routerA	{"container_name":"/tfg-software-dockers2-routera-1","source":"stderr","log":" ** (tshark:78) 18:50:51.684797 [Main MESSAGE] -- File: \"/tmp/wireshark_anyZ45RF2.pcapng\"","container_id":"3bbf71772af16fb2aa386e3229fa05bb4b0fd6496ce9e9db2dbcb3e7d8c6d199"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    1 0.000000000     10.3.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    2 0.001326700 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    3 0.001341900 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    4 0.001408100 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    5 0.212358300     10.0.3.2 → 10.200.0.3   TCP 76 45021 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=4061937257 TSecr=0 WS=128"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    6 1.962325300 fe80::24df:61ff:fe06:1012 → ff02::2      ICMPv6 72 Router Solicitation from 26:df:61:06:10:12"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    7 2.602349400 fe80::a064:82ff:fe2a:6516 → ff02::2      ICMPv6 72 Router Solicitation from a2:64:82:2a:65:16"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    8 2.762373900 fe80::4c2f:96ff:feb4:9daa → ff02::2      ICMPv6 72 Router Solicitation from 4e:2f:96:b4:9d:aa"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"    9 4.282423300     10.0.3.2 → 10.200.0.3   TCP 76 [TCP Retransmission] [TCP Port numbers reused] 45021 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=4061941327 TSecr=0 WS=128"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   10 9.012782300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   11 9.012798600     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   12 9.013722400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   13 9.013729800     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   14 9.014069400     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   15 9.014073900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   16 9.962393800 fe80::24df:61ff:fe06:1012 → ff02::2      ICMPv6 72 Router Solicitation from 26:df:61:06:10:12"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   17 9.999943300     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   18 11.242380400 fe80::4c2f:96ff:feb4:9daa → ff02::2      ICMPv6 72 Router Solicitation from 4e:2f:96:b4:9d:aa"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   19 11.242384700 fe80::a064:82ff:fe2a:6516 → ff02::2      ICMPv6 72 Router Solicitation from a2:64:82:2a:65:16"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   20 12.522381200     10.0.3.2 → 10.200.0.3   TCP 76 [TCP Retransmission] [TCP Port numbers reused] 45021 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=4061949567 TSecr=0 WS=128"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   21 14.042109400 02:42:0a:03:00:02 →              ARP 44 Who has 10.3.0.3? Tell 10.3.0.2"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   22 14.042116500 02:42:0a:03:00:03 →              ARP 44 10.3.0.3 is at 02:42:0a:03:00:03"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   23 19.012524300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   24 19.012544500     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   25 19.013428000     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   26 19.013436600     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   27 19.013780600     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   28 19.013786900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   29 19.999671700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   30 26.602080000 fe80::24df:61ff:fe06:1012 → ff02::2      ICMPv6 72 Router Solicitation from 26:df:61:06:10:12"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   31 27.242088800 fe80::4c2f:96ff:feb4:9daa → ff02::2      ICMPv6 72 Router Solicitation from 4e:2f:96:b4:9d:aa"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   32 27.882088700 fe80::a064:82ff:fe2a:6516 → ff02::2      ICMPv6 72 Router Solicitation from a2:64:82:2a:65:16"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   33 29.012540200     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   34 29.012557300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   35 29.013469800     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   36 29.013493400     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   37 29.013787000     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   38 29.013793000     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   39 29.162070700     10.0.3.2 → 10.200.0.3   TCP 76 [TCP Retransmission] [TCP Port numbers reused] 45021 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=4061966207 TSecr=0 WS=128"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   40 29.999682700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   41 35.002031400 02:42:0a:03:00:03 →              ARP 44 Who has 10.3.0.2? Tell 10.3.0.3"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   42 35.002183700 02:42:0a:03:00:02 →              ARP 44 10.3.0.2 is at 02:42:0a:03:00:02"}
+2023-12-15T18:51:30+00:00	routerDlogs	{"message":"   43 38.932605800     10.3.0.3 → 10.3.0.2     OSPF 68 DB Description"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    1 0.000000000 fe80::c4af:15ff:fe54:2019 → ff02::2      ICMPv6 72 Router Solicitation from c6:af:15:54:20:19"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    2 0.000000500 fe80::78fc:22ff:fe9c:41a9 → ff02::2      ICMPv6 72 Router Solicitation from 7a:fc:22:9c:41:a9"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    3 1.039988000 fe80::2438:62ff:fe33:31d5 → ff02::2      ICMPv6 72 Router Solicitation from 26:38:62:33:31:d5"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    4 2.729965900     10.0.1.2 → 10.200.0.3   TCP 76 41019 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=205913304 TSecr=0 WS=128"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    5 7.039926000 fe80::78fc:22ff:fe9c:41a9 → ff02::2      ICMPv6 72 Router Solicitation from 7a:fc:22:9c:41:a9"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    6 7.607664600     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    7 7.607681500     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    8 7.607971800     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"    9 7.607978200     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   10 7.609813100     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   11 7.609823200     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   12 7.680001500 fe80::c4af:15ff:fe54:2019 → ff02::2      ICMPv6 72 Router Solicitation from c6:af:15:54:20:19"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   13 7.716551300     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   14 8.959996700 fe80::2438:62ff:fe33:31d5 → ff02::2      ICMPv6 72 Router Solicitation from 26:38:62:33:31:d5"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   15 10.880048500     10.0.1.2 → 10.200.0.3   TCP 76 [TCP Retransmission] [TCP Port numbers reused] 41019 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=205921454 TSecr=0 WS=128"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   16 12.639775100 02:42:0a:02:00:02 →              ARP 44 Who has 10.2.0.3? Tell 10.2.0.2"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   17 12.639782900 02:42:0a:02:00:03 →              ARP 44 10.2.0.3 is at 02:42:0a:02:00:03"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   18 17.607383900     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   19 17.607401500     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   20 17.607676900     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   21 17.607684600     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   22 17.609538600     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   23 17.609553300     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   24 17.716262400     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   25 21.119680800 fe80::78fc:22ff:fe9c:41a9 → ff02::2      ICMPv6 72 Router Solicitation from 7a:fc:22:9c:41:a9"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   26 22.399628000 fe80::c4af:15ff:fe54:2019 → ff02::2      ICMPv6 72 Router Solicitation from c6:af:15:54:20:19"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   27 24.319701000 fe80::2438:62ff:fe33:31d5 → ff02::2      ICMPv6 72 Router Solicitation from 26:38:62:33:31:d5"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   28 27.519695000     10.0.1.2 → 10.200.0.3   TCP 76 [TCP Retransmission] [TCP Port numbers reused] 41019 → 5140 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=205938094 TSecr=0 WS=128"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   29 27.607398100     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   30 27.607414400     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   31 27.607691400     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   32 27.607697900     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   33 27.609542100     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   34 27.609551600     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   35 27.716280600     10.2.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   36 32.559650100 02:42:0a:00:01:02 →              ARP 44 Who has 10.0.1.1? Tell 10.0.1.2"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   37 32.559728500 02:42:5f:63:bd:a6 →              ARP 44 10.0.1.1 is at 02:42:5f:63:bd:a6"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   38 32.719665700 02:42:0a:02:00:03 →              ARP 44 Who has 10.2.0.2? Tell 10.2.0.3"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   39 32.719801900 02:42:0a:02:00:02 →              ARP 44 10.2.0.2 is at 02:42:0a:02:00:02"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   40 37.606365000     10.2.0.3 → 10.2.0.2     OSPF 68 DB Description"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   41 37.607395200     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   42 37.607403700     10.2.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   43 37.607693700     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   44 37.607700500     10.0.1.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   45 37.609551700     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:31+00:00	routerClogs	{"message":"   46 37.609562500     10.0.2.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:35+00:00	fluent.warn	{"data":"<30>Dec 15 18:51:35 routerA ospfd[68]: [S5PCG-77H23] Packet[DD]: Neighbor 10.3.0.2 Negotiation done (Master).","message":"failed to parse message data=\"<30>Dec 15 18:51:35 routerA ospfd[68]: [S5PCG-77H23] Packet[DD]: Neighbor 10.3.0.2 Negotiation done (Master).\""}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   44 39.012543300     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   45 39.012559800     10.3.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   46 39.013459100     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   47 39.013468600     10.0.3.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   48 39.013791900     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   49 39.013798200     10.0.4.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   50 39.998686500     10.3.0.2 → 10.3.0.3     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   51 39.999668700     10.3.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   52 40.134067600 02:42:0a:00:03:03 →              ARP 44 Who has 10.0.3.2? Tell 10.0.3.3"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   53 40.134173700 02:42:0a:00:03:02 →              ARP 44 10.0.3.2 is at 02:42:0a:00:03:02"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   54 40.134197300     10.0.3.3 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=1/256, ttl=64"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   55 40.134221200     10.0.3.2 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=1/256, ttl=63"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   56 40.147165800      8.8.8.8 → 10.0.3.2     ICMP 100 Echo (ping) reply    id=0x0001, seq=1/256, ttl=36 (request in 55)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   57 40.147179500      8.8.8.8 → 10.0.3.3     ICMP 100 Echo (ping) reply    id=0x0001, seq=1/256, ttl=35 (request in 54)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   58 41.134402000     10.0.3.3 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=2/512, ttl=64"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   59 41.134420300     10.0.3.2 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=2/512, ttl=63"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   60 41.140799800      8.8.8.8 → 10.0.3.2     ICMP 100 Echo (ping) reply    id=0x0001, seq=2/512, ttl=36 (request in 59)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   61 41.140806500      8.8.8.8 → 10.0.3.3     ICMP 100 Echo (ping) reply    id=0x0001, seq=2/512, ttl=35 (request in 58)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   62 42.135995100     10.0.3.3 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=3/768, ttl=64"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   63 42.136011700     10.0.3.2 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=3/768, ttl=63"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   64 42.146923300      8.8.8.8 → 10.0.3.2     ICMP 100 Echo (ping) reply    id=0x0001, seq=3/768, ttl=36 (request in 63)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   65 42.146930400      8.8.8.8 → 10.0.3.3     ICMP 100 Echo (ping) reply    id=0x0001, seq=3/768, ttl=35 (request in 62)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   66 43.136630900     10.0.3.3 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=4/1024, ttl=64"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   67 43.136647900     10.0.3.2 → 8.8.8.8      ICMP 100 Echo (ping) request  id=0x0001, seq=4/1024, ttl=63"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   68 43.144486500      8.8.8.8 → 10.0.3.2     ICMP 100 Echo (ping) reply    id=0x0001, seq=4/1024, ttl=36 (request in 67)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   69 43.144497000      8.8.8.8 → 10.0.3.3     ICMP 100 Echo (ping) reply    id=0x0001, seq=4/1024, ttl=35 (request in 66)"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   70 43.932868000     10.3.0.3 → 10.3.0.2     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   71 43.933098800     10.3.0.2 → 10.3.0.3     OSPF 128 DB Description"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   72 43.933364300     10.3.0.3 → 10.3.0.2     OSPF 88 DB Description"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   73 43.933436700     10.3.0.3 → 10.3.0.2     OSPF 96 LS Request"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   74 43.933516600     10.3.0.2 → 10.3.0.3     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   75 43.933603400     10.3.0.2 → 10.3.0.3     OSPF 72 LS Request"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   76 43.933646500     10.3.0.2 → 224.0.0.5    OSPF 216 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   77 43.933672500     10.3.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   78 43.933683700     10.3.0.3 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   79 43.933881300     10.3.0.3 → 224.0.0.5    OSPF 156 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   80 43.933890800     10.3.0.3 → 224.0.0.5    OSPF 156 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   81 43.933979100     10.3.0.2 → 224.0.0.5    OSPF 124 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   82 43.998912300     10.3.0.2 → 224.0.0.5    OSPF 100 LS Acknowledge"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   83 44.934078000     10.3.0.3 → 224.0.0.5    OSPF 120 LS Acknowledge"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   84 44.934097100     10.3.0.3 → 224.0.0.5    OSPF 120 LS Acknowledge"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   85 44.934939500     10.3.0.2 → 224.0.0.5    OSPF 184 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   86 44.935271100     10.3.0.2 → 224.0.0.5    OSPF 96 LS Update"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   87 45.164386600 02:42:0a:00:03:02 →              ARP 44 Who has 10.0.3.3? Tell 10.0.3.2"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   88 45.166944300 02:42:0a:00:03:02 →              ARP 44 Who has 10.0.3.1? Tell 10.0.3.2"}
+2023-12-15T18:51:36+00:00	routerDlogs	{"message":"   89 45.165063400 02:42:f9:dc:e7:21 →              ARP 44 Who has 10.0.3.2? Tell 10.0.3.1"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    1 0.000000000 fe80::b01a:27ff:fe9a:7091 → ff02::2      ICMPv6 72 Router Solicitation from b2:1a:27:9a:70:91"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    2 0.400024000 02:42:0a:c8:00:03 →              ARP 44 Who has 10.200.0.2? Tell 10.200.0.3"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    3 0.400031500 02:42:0a:c8:00:02 →              ARP 44 10.200.0.2 is at 02:42:0a:c8:00:02"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    4 0.560000200 fe80::d00a:8ff:fef8:21de → ff02::2      ICMPv6 72 Router Solicitation from d2:0a:08:f8:21:de"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    5 0.560000200 fe80::6478:a6ff:fe7d:3b01 → ff02::2      ICMPv6 72 Router Solicitation from 66:78:a6:7d:3b:01"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    6 7.405225600   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    7 7.405241000   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    8 7.405622100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"    9 7.405628900   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   10 7.406100500     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   11 7.406108800     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   12 7.440016300 fe80::b01a:27ff:fe9a:7091 → ff02::2      ICMPv6 72 Router Solicitation from b2:1a:27:9a:70:91"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   13 7.476060600     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   14 8.720007900 fe80::6478:a6ff:fe7d:3b01 → ff02::2      ICMPv6 72 Router Solicitation from 66:78:a6:7d:3b:01"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   15 9.359969000 fe80::d00a:8ff:fef8:21de → ff02::2      ICMPv6 72 Router Solicitation from d2:0a:08:f8:21:de"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   16 12.479751900 02:42:0a:01:00:03 →              ARP 44 Who has 10.1.0.2? Tell 10.1.0.3"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   17 12.479760300 02:42:0a:01:00:02 →              ARP 44 10.1.0.2 is at 02:42:0a:01:00:02"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   18 17.404972900   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   19 17.404989700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   20 17.405334700   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   21 17.405344300   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   22 17.405811200     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   23 17.405821300     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   24 17.475790300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   25 21.519686400 fe80::b01a:27ff:fe9a:7091 → ff02::2      ICMPv6 72 Router Solicitation from b2:1a:27:9a:70:91"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   26 24.079703600 fe80::6478:a6ff:fe7d:3b01 → ff02::2      ICMPv6 72 Router Solicitation from 66:78:a6:7d:3b:01"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   27 27.279715600 fe80::d00a:8ff:fef8:21de → ff02::2      ICMPv6 72 Router Solicitation from d2:0a:08:f8:21:de"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   28 27.404989200   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   29 27.405004700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   30 27.405334800   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   31 27.405341100   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   32 27.405814100     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   33 27.405822800     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   34 27.475951300     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   35 32.479651800 02:42:0a:01:00:02 →              ARP 44 Who has 10.1.0.3? Tell 10.1.0.2"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   36 32.479851800 02:42:0a:01:00:03 →              ARP 44 10.1.0.3 is at 02:42:0a:01:00:03"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   37 37.404898900     10.1.0.2 → 10.1.0.3     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   38 37.405002700   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   39 37.405014200   10.100.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   40 37.405351000   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   41 37.405358300   10.200.0.2 → 224.0.0.5    OSPF 80 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   42 37.405827700     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   43 37.405836900     10.1.0.2 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   44 37.474847000     10.1.0.3 → 10.1.0.2     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   45 37.475995800     10.1.0.3 → 224.0.0.5    OSPF 84 Hello Packet"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   46 42.411096600     10.1.0.2 → 10.1.0.3     OSPF 68 DB Description"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   47 42.411292700     10.1.0.3 → 10.1.0.2     OSPF 168 DB Description"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   48 42.411749400     10.1.0.2 → 10.1.0.3     OSPF 88 DB Description"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   49 42.411821500     10.1.0.2 → 10.1.0.3     OSPF 120 LS Request"}
+2023-12-15T18:51:36+00:00	routerAlogs	{"message":"   50 42.411894800     10.1.0.3 → 10.1.0.2     OSPF 68 DB Description"}

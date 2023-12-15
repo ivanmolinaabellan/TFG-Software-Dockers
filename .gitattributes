@@ -1,0 +1,6 @@
+# Ensure LF end of lines for shell scripts and text files
+*.sh text eol=lf
+*.txt text eol=lf
+
+# Ensure CRLF end of lines for Windows specific files
+*.bat text eol=crlf
